@@ -1,0 +1,42 @@
+{
+    "name": "vuejs-simple-calendar",
+    "description": "A Vue.js project for simple calendar",
+    "version": "1.0.0",
+    "author": "victoria <uroo@vip.qq.com>",
+    "license": "MIT",
+    "private": false,
+    "main": "dist/vuejs-simple-calendar.js",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
+        "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    },
+    "dependencies": {
+        "element-ui": "^2.13.0",
+        "vue": "^2.5.11"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ],
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-component": "^1.1.1",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-stage-3": "^6.24.1",
+        "cross-env": "^5.0.5",
+        "css-loader": "^0.28.7",
+        "file-loader": "^1.1.4",
+        "less": "^2.7.2",
+        "less-loader": "^4.0.5",
+        "postcss-import": "^11.0.0",
+        "postcss-loader": "^2.0.8",
+        "postcss-url": "^7.2.1",
+        "url-loader": "^0.5.8",
+        "vue-loader": "^13.3.0",
+        "vue-template-compiler": "^2.4.4",
+        "webpack": "^3.6.0",
+        "webpack-dev-server": "^2.9.1"
+    }
+}
