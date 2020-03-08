@@ -2,7 +2,7 @@
     "name": "vuejs-simple-calendar",
     "description": "A Vue.js project for simple calendar",
     "keywords":["vue.js", "elementUI", "calendar"],
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "victoria <uroo@vip.qq.com>",
     "license": "MIT",
     "private": false,

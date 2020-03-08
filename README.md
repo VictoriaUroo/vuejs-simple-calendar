@@ -15,7 +15,7 @@
 具体看https://element.eleme.cn/#/zh-CN/component/quickstart
 可以引用全部ElementUI组件，也可以按需引入。
 
-按需引入用到一下组件：
+按需引入用到以下组件：
 ``` javascript
 // main.js
 
@@ -99,3 +99,6 @@ Vue.use(Calender);
 | disabledSelects | 禁止点击，但显示已选中高亮状态的日期 | Array | - | 空数组 |
 | disabledDates | 禁止点击，并置灰的日期 | Array | - | 空数组 |
 | multipleControl | 是否显示批量选中日期控制器 | true/false| - | true |
+
+#### 预览
+![vuejs-simple-calendar](https://s2.ax1x.com/2020/03/08/3zoXaq.png)
