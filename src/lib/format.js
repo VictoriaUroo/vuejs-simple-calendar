@@ -1,4 +1,4 @@
-const dataModule = {
+const formatModule = {
     data: function () {
         return {
             days: [{
@@ -161,4 +161,4 @@ const dataModule = {
     }
 };
 
-export default dataModule;
+export default formatModule;
